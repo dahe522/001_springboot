@@ -23,7 +23,7 @@ public class MyController {
     @RequestMapping("/spring")
     @ResponseBody
     public String Hello() {
-        String s = "张三";
+        String s = "张三s";
         return abc.getName();
     }
 
